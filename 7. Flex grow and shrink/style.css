@@ -32,3 +32,15 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container{
     display: flex;
 }
+.box{
+    flex-basis: 400px;
+    /* flex: 2 1 400px; */
+}
+.box1{
+    flex-grow: 2;
+    flex-shrink: 3;
+}
+.box2{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
