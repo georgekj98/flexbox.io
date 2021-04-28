@@ -88,4 +88,43 @@ ul{
 
 @media all and (max-width:500px) {
   
+    .flex-nav li{
+        flex-basis: 100%;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper > *{
+        order: 9999;
+    }
+    .flex-nav{
+        order: 1;
+    }
+    .toggleNav{
+        display: block;
+    }
+    .flex-nav ul{
+        display: none;
+    }
+    .flex-nav ul.open{
+        display: flex;
+    }
+    /* Header */
+    .top{
+        order: 2;
+    }
+     /* Details */
+    .details {
+        order:3;
+    }
+     /* Sign Up */
+  .signup {
+    order:4;
+  }
+  .submit-button{
+      margin: 10px;
+  }
 }
